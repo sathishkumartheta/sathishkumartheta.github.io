@@ -1,145 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Sathishkumar Thirumalai — Senior ML Engineer | AI Engineer | Data Scientist" />
-  <title>Sathishkumar Thirumalai | ML Engineer & AI Engineer</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sathishkumar Thirumalai – Senior ML Engineer</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
   <style>
-    html {
-      scroll-behavior: smooth;
+    body {
+      background: #f6f8fa;
+      color: #22223b;
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      line-height: 1.7;
     }
-    .gradient-bg {
-      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #3b82f6 100%);
+    .container {
+      max-width: 900px;
+      background: #fff;
+      margin: 40px auto;
+      border-radius: 16px;
+      box-shadow: 0 4px 32px rgba(51,64,111,0.06);
+      padding: 36px 42px 46px 42px;
     }
-    .section-title {
-      @apply text-3xl font-bold text-gray-800 mb-6 border-b-4 border-blue-500 inline-block pb-1;
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.6em;
+      font-weight: 700;
+      color: #2d6a4f;
+    }
+    header h2 {
+      margin-top: 8px;
+      font-weight: 400;
+      color: #52796f;
+      font-size: 1.3em;
+    }
+    .contact-links {
+      margin-top: 18px;
+      font-size: 1em;
+    }
+    .contact-links a {
+      margin: 0 14px;
+      text-decoration: none;
+      color: #224d3f;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .contact-links a:hover {
+      color: #3a86ff;
+    }
+    section {
+      margin-top: 36px;
+    }
+    section h3 {
+      font-size: 1.25em;
+      color: #3a5a40;
+      border-bottom: 2px solid #b7e4c7;
+      display: inline-block;
+      margin-bottom: 12px;
+      padding-bottom: 3px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    ul, .item-list {
+      padding-left: 20px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .job {
+      margin-bottom: 18px;
+    }
+    .edu {
+      margin-bottom: 10px;
+    }
+    .project, .competition {
+      margin-bottom: 12px;
+    }
+    .skills-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 14px;
+    }
+    .skills-row ul {
+      list-style: circle;
+      margin: 0 0 0 14px;
+    }
+    @media (max-width: 700px) {
+      .container { padding: 20px 8px; }
+      .skills-row { flex-direction: column; gap: 20px; }
     }
   </style>
 </head>
-
-<body class="bg-gray-50 text-gray-800 font-inter leading-relaxed">
-
-  <!-- Hero Section -->
-  <header class="gradient-bg text-white py-16 text-center shadow-lg">
-    <h1 class="text-4xl font-extrabold tracking-tight">Sathishkumar Thirumalai</h1>
-    <p class="text-xl mt-3 opacity-90">AWS Certified • Senior ML Engineer • AI Engineer • Data Scientist</p>
-    <div class="mt-6 space-x-5 text-lg">
-      <a href="mailto:sathishkumartheta@gmail.com" class="hover:underline">📧 Email</a>
-      <a href="https://www.linkedin.com/in/sathishkumar-thirumalai" target="_blank" class="hover:underline">LinkedIn</a>
-      <a href="https://github.com/sathishkumartheta" target="_blank" class="hover:underline">GitHub</a>
-      <a href="https://www.kaggle.com/sathishkumartheta" target="_blank" class="hover:underline">Kaggle</a>
-    </div>
-  </header>
-
-  <!-- About -->
-  <section class="container mx-auto px-6 py-16">
-    <h2 class="text-3xl font-semibold text-blue-800 mb-4">About Me</h2>
-    <p class="text-lg text-gray-700 max-w-4xl">
-      I am a <strong>Senior Machine Learning Engineer</strong> with 14+ years of total experience (7+ in ML/AI). 
-      My expertise spans <strong>Forecasting, Anomaly Detection, Computer Vision, Generative AI,</strong> and 
-      <strong>Agentic AI</strong>. I build real-world, production-grade AI systems on AWS and GCP — from data pipelines 
-      to deployed agents.
-    </p>
-  </section>
-
-  <!-- Skills -->
-  <section class="bg-gradient-to-r from-blue-50 to-blue-100 py-16">
-    <div class="container mx-auto px-6">
-      <h2 class="text-3xl font-semibold text-blue-800 mb-8">Core Skills</h2>
-      <div class="grid md:grid-cols-2 gap-6 text-lg">
-        <div class="bg-white rounded-2xl shadow-md p-6">
-          <h3 class="font-semibold text-blue-700 mb-2">Languages & APIs</h3>
-          <p>Python, C#, C++, C, PyQt, REST APIs, Flask, FastAPI</p>
-        </div>
-        <div class="bg-white rounded-2xl shadow-md p-6">
-          <h3 class="font-semibold text-blue-700 mb-2">Machine Learning / Deep Learning</h3>
-          <p>Forecasting, Anomaly Detection, CNNs, RNNs, Transformers, Computer Vision, OCR</p>
-        </div>
-        <div class="bg-white rounded-2xl shadow-md p-6">
-          <h3 class="font-semibold text-blue-700 mb-2">AI / LLM</h3>
-          <p>LangChain, LangGraph, Google ADK, MCP, Ollama, Langfuse, RAG, Agentic AI</p>
-        </div>
-        <div class="bg-white rounded-2xl shadow-md p-6">
-          <h3 class="font-semibold text-blue-700 mb-2">MLOps & Data Tools</h3>
-          <p>Airflow, Kafka, SageMaker, Vertex AI, Hugging Face, MLflow, Gradio, Streamlit</p>
-        </div>
+<body>
+  <div class="container">
+    <header>
+      <h1>Sathishkumar Thirumalai</h1>
+      <h2>Senior Machine Learning Engineer | AWS Certified | AI, GenAI & Data Science</h2>
+      <div class="contact-links">
+        Chennai, India &middot;
+        <a href="mailto:sathishkumartheta@gmail.com">Email</a> |
+        <a href="https://www.linkedin.com/in/sathishkumartheta">LinkedIn</a> |
+        <a href="https://github.com/sathishkumartheta">GitHub</a> |
+        <a href="https://www.kaggle.com/sathishkumartheta">Kaggle</a>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Experience -->
-  <section class="container mx-auto px-6 py-16">
-    <h2 class="text-3xl font-semibold text-blue-800 mb-8">Experience</h2>
-    <div class="grid gap-8 md:grid-cols-2">
-      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition">
-        <h3 class="text-xl font-semibold text-blue-700">Senior Machine Learning Engineer</h3>
-        <p class="text-gray-500 italic">Indira Gandhi Centre for Atomic Research (2018–Present)</p>
-        <ul class="list-disc ml-6 mt-3 space-y-1">
-          <li>Built real-time forecasting & anomaly detection (92% failure prevention)</li>
-          <li>Developed ANPR & camouflaged object detection using PyTorch</li>
-          <li>Created RAG-QA & analytics agents using Gemini and Llama 3.1</li>
-          <li>Architecting LLM-powered video analytics with AWS Kinesis & Rekognition</li>
+    <section>
+      <h3>Profile Summary</h3>
+      <p>
+        14 years of system engineering, including 7 years designing E2E ML and Generative AI systems on AWS & GCP.
+        Experienced in Forecasting, Anomaly Detection, Computer Vision, Generative AI (LLM, RAG), and agent-based AI.
+      </p>
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <div class="skills-row">
+        <ul>
+          <li>Programming: Python, C, C++, PyQt, REST, Flask, FastAPI</li>
+          <li>ML/DL: Model Design & Training, CNN, RNN, Transformers, Time Series, Computer Vision, NLP, RAG</li>
+        </ul>
+        <ul>
+          <li>MLOps: Docker, Airflow, Kafka, AWS Sagemaker, Bedrock, Vertex AI, MLflow, Weights & Biases</li>
+          <li>Data: pandas, PySpark, MSSQL, SQLite, FAISS, ChromaDB</li>
+          <li>Visualization: matplotlib, seaborn, Gradio, Streamlit</li>
+        </ul>
+        <ul>
+          <li>GenAI/LLM: LangChain, LangGraph, Google ADK, Ollama, Langfuse, MCP</li>
         </ul>
       </div>
-      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition">
-        <h3 class="text-xl font-semibold text-blue-700">Application Developer / Systems Engineer</h3>
-        <p class="text-gray-500 italic">IGCAR & Infosys (2011–2018)</p>
-        <ul class="list-disc ml-6 mt-3 space-y-1">
-          <li>Developed C#, Python, and C-based access control & biometric systems</li>
-          <li>Implemented iris and fingerprint matching algorithms</li>
-          <li>Enterprise .NET app development and embedded system design</li>
+    </section>
+
+    <section>
+      <h3>Experience</h3>
+      <div class="job">
+        <strong>Senior Machine Learning Engineer</strong> <br>
+        Indira Gandhi Centre for Atomic Research (Sep 2018 - Present) <br>
+        <ul>
+          <li>Built time series forecasting and anomaly detection (92% of failures pre-empted, real-time, AWS+Kafka+pandas).</li>
+          <li>Automatic Number Plate Recognition (OpenCV, 95%+ accuracy).</li>
+          <li>Camouflaged Object Detection (CNN, PyTorch, MLFlow).</li>
+          <li>RAG-QA Agent for biometric systems (Gemini, GCP Vertex AI).</li>
+          <li>Analytics agent for transactions (LLM, MSSQL, LangChain).</li>
+          <li>Complex ETL pipelines for biometrics (Airflow, Kafka, Python).</li>
+          <li>LLM-powered Video Analytics Engine (In progress).</li>
         </ul>
       </div>
-    </div>
-  </section>
-
-  <!-- Open Source & Competitions -->
-  <section class="bg-blue-50 py-16">
-    <div class="container mx-auto px-6">
-      <h2 class="text-3xl font-semibold text-blue-800 mb-8">Open Source & Achievements</h2>
-
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-white p-6 rounded-2xl shadow-md">
-          <h3 class="text-xl font-semibold text-blue-700 mb-2">Key Projects</h3>
-          <ul class="list-disc ml-6 space-y-2">
-            <li><a href="https://github.com/sathishkumartheta/telegmail-release" target="_blank" class="text-blue-600 hover:underline">Telegmail</a> — Telegram → Gmail forwarder</li>
-            <li><a href="https://github.com/sathishkumartheta/genai-calendar-assistant" target="_blank" class="text-blue-600 hover:underline">GenAI Calendar Assistant</a> — Gemini-based Google Calendar agent</li>
-            <li><a href="https://github.com/sathishkumartheta/tokenwise-dehado-ai" target="_blank" class="text-blue-600 hover:underline">DeHaDo-AI</a> — Handwritten document recognition (YOLO + TrOCR)</li>
-          </ul>
-        </div>
-
-        <div class="bg-white p-6 rounded-2xl shadow-md">
-          <h3 class="text-xl font-semibold text-blue-700 mb-2">Competitions</h3>
-          <ul class="list-disc ml-6 space-y-2">
-            <li>🏆 Top 15 / 9000 — Agentic AI Day Hackathon (Google Cloud)</li>
-            <li>🥇 Winner — Agents-MCP Hackathon (HuggingFace)</li>
-            <li>🥈 2nd Place — DeHaDo-AI (IIT Jammu)</li>
-            <li>🏅 13th Place — MoSPI Data Viz Hackathon (Govt. of India)</li>
-          </ul>
-        </div>
+      <div class="job">
+        <strong>Application Software Developer</strong> <br>
+        Indira Gandhi Centre for Atomic Research (Nov 2012 - Sep 2018) <br>
+        <ul>
+          <li>Designed physical access control systems (Embedded C/C++, MS-SQL).</li>
+          <li>RFID-based photo display system (Python, PyQt).</li>
+          <li>Biometric recognition algorithm design (Iris, Fingerprint, Python, OpenCV, SQLite, C).</li>
+        </ul>
       </div>
-    </div>
-  </section>
+      <div class="job">
+        <strong>DotNet Developer</strong> <br>
+        Infosys (Aug 2011 - Nov 2012)
+        <ul>
+          <li>DotNet application development and on-premises training.</li>
+        </ul>
+      </div>
+    </section>
 
-  <!-- Education & Certifications -->
-  <section class="container mx-auto px-6 py-16">
-    <h2 class="text-3xl font-semibold text-blue-800 mb-8">Education & Certifications</h2>
-    <div class="bg-white p-6 rounded-2xl shadow-md max-w-3xl">
-      <ul class="list-disc ml-6 space-y-2">
-        <li><strong>M.Sc. (Engg)</strong> — Computer Science (Algorithm Design), HBNI (2018)</li>
-        <li><strong>B.E.</strong> — Electronics & Communication, SSN College of Engineering (2011)</li>
-        <li><strong>AWS Certified Machine Learning Engineer – Associate</strong> (Valid till Sep 2028)</li>
+    <section>
+      <h3>Education</h3>
+      <div class="edu">
+        <strong>M.S. (Engg.) – Computer Science</strong>, HBNI, 2015-2018<br>
+        Chennai, India – Specialization in Algorithm Design
+      </div>
+      <div class="edu">
+        <strong>B.E. – Electronics & Communication</strong>, SSN College of Engineering, 2007-2011<br>
+        Chennai, India
+      </div>
+    </section>
+
+    <section>
+      <h3>Projects & Open Source</h3>
+      <div class="item-list">
+        <div class="project"><strong>Telegmail:</strong> Real-time Telegram-to-Gmail forwarder (Python).</div>
+        <div class="project"><strong>Nutrition Info:</strong> Food nutrition info bot, powered by Gemini LLMs.</div>
+        <div class="project"><strong>GenAI Calendar Assistant:</strong> Task assistant for Google Calendar (Gemini 2.0 APIs).</div>
+      </div>
+    </section>
+    
+    <section>
+      <h3>Competitions & Awards</h3>
+      <div class="item-list">
+        <div class="competition">Top 15/9000, Google Cloud Agentic AI Hackathon (2025). City analytics overload manager (GCP, Cloud Functions).</div>
+        <div class="competition">Winner, Agents-MCP Hackathon by Huggingface (2025). MCP server/tool for RAG evaluation.</div>
+        <div class="competition">2nd Place, DeHaDo-AI by IIT Jammu. Handwritten doc recognition (YOLO, TrOCR).</div>
+        <div class="competition">13th Place, MoSPI Data Viz Hackathon (2025).</div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Certifications</h3>
+      <ul>
+        <li>AWS Machine Learning Engineer – Associate (valid till Sep 2028)</li>
       </ul>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="gradient-bg text-white text-center py-8 mt-8">
-    <p class="text-lg">© 2025 Sathishkumar Thirumalai</p>
-    <p class="text-sm opacity-80">Built with ❤️ using Tailwind CSS • Hosted on GitHub Pages</p>
-  </footer>
-
+    </section>
+  </div>
 </body>
 </html>
