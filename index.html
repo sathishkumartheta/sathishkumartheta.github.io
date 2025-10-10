@@ -1,78 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sathishkumar Thirumalai | AI Engineer</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Sathishkumar Thirumalai — Senior ML Engineer | AI Engineer | Data Scientist" />
+  <title>Sathishkumar Thirumalai | ML Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <div class="container mt-5">
-    <div class="text-center">
-      <h1>Sathishkumar Thirumalai</h1>
-      <p>AI/ML Engineer | End-to-End Deep Learning & Agentic AI Systems | 4x Hackathon Winner</p>
-      <p>📍 Chennai, Tamil Nadu, India | 📧 <a href="mailto:sathishkumartheta@gmail.com">sathishkumartheta@gmail.com</a> | ☎️ +91-7845683031</p>
-      <p>
-        <a href="https://www.linkedin.com/in/sathishkumartheta/" target="_blank">LinkedIn</a> |
-        <a href="https://github.com/sathishkumartheta" target="_blank">GitHub</a> |
-        <a href="https://www.kaggle.com/sathishkumartheta" target="_blank">Kaggle</a>
-      </p>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl font-bold">Sathishkumar Thirumalai</h1>
+      <p class="text-lg mt-2">AWS Certified | Senior ML Engineer | AI Engineer | Data Scientist</p>
+      <div class="mt-4 space-x-4">
+        <a href="mailto:sathishkumartheta@gmail.com" class="hover:underline">Email</a> |
+        <a href="https://www.linkedin.com/in/sathishkumar-thirumalai" target="_blank" class="hover:underline">LinkedIn</a> |
+        <a href="https://github.com/sathishkumartheta" target="_blank" class="hover:underline">GitHub</a> |
+        <a href="https://www.kaggle.com/sathishkumartheta" target="_blank" class="hover:underline">Kaggle</a>
+      </div>
     </div>
+  </header>
 
-    <hr>
+  <!-- Summary -->
+  <section class="container mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-4 border-b-4 border-blue-500 inline-block pb-1">About Me</h2>
+    <p class="text-lg leading-relaxed">
+      I’m a Senior Machine Learning Engineer with 14+ years of experience in systems engineering and 7+ years building end-to-end Machine Learning and Generative AI systems on AWS and GCP. My expertise spans Forecasting, Anomaly Detection, Computer Vision, and Agentic AI.
+    </p>
+  </section>
 
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>Technical Officer (AI Engineer)</strong>, IGCAR — 2018–Present</li>
-      <li><strong>Software Developer</strong>, IGCAR — 2012–2018</li>
-      <li><strong>DotNet Developer</strong>, Infosys — 2011–2012</li>
+  <!-- Skills -->
+  <section class="bg-white py-12">
+    <div class="container mx-auto px-6">
+      <h2 class="text-2xl font-bold mb-4 border-b-4 border-blue-500 inline-block pb-1">Skills</h2>
+      <ul class="grid md:grid-cols-2 gap-4 text-lg">
+        <li><strong>Languages:</strong> Python, C#, C++, C, PyQt, REST APIs, Flask, FastAPI</li>
+        <li><strong>ML/DL:</strong> CNNs, RNNs, Transformers, Time Series, Forecasting, Anomaly Detection</li>
+        <li><strong>AI/LLM:</strong> LangChain, LangGraph, Google ADK, agno-ai, MCP, Ollama, Langfuse</li>
+        <li><strong>Tools:</strong> Airflow, Kafka, Sagemaker, Vertex AI, Hugging Face, MLflow, Gradio</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="container mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-4 border-b-4 border-blue-500 inline-block pb-1">Experience</h2>
+    <div class="space-y-8">
+      <div>
+        <h3 class="text-xl font-semibold">Senior Machine Learning Engineer — IGCAR</h3>
+        <p class="text-gray-600 italic">Sep 2018 – Present | Chennai, India</p>
+        <ul class="list-disc ml-6 mt-2">
+          <li>Built real-time forecasting & anomaly detection systems (92% accuracy, AWS stack)</li>
+          <li>Developed ANPR and Camouflaged Object Detection systems using PyTorch & OpenCV</li>
+          <li>Created RAG-QA and Analytics Agents powered by Gemini 2.5 & Llama 3.1</li>
+          <li>Architecting LLM-powered Video Analytics Engine using AWS Kinesis & Rekognition</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">Application Software Developer — IGCAR</h3>
+        <p class="text-gray-600 italic">Nov 2012 – Sep 2018</p>
+        <ul class="list-disc ml-6 mt-2">
+          <li>Developed C#, C, and Python-based biometric access control systems</li>
+          <li>Optimized biometric recognition algorithms (iris & fingerprint)</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">Systems Engineer — Infosys</h3>
+        <p class="text-gray-600 italic">Aug 2011 – Nov 2012</p>
+        <ul class="list-disc ml-6 mt-2">
+          <li>Trained and developed enterprise .NET applications</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Open Source & Competitions -->
+  <section class="bg-white py-12">
+    <div class="container mx-auto px-6">
+      <h2 class="text-2xl font-bold mb-4 border-b-4 border-blue-500 inline-block pb-1">Open-source Projects</h2>
+      <ul class="list-disc ml-6 space-y-2">
+        <li><a href="https://github.com/sathishkumartheta/telegmail-release" target="_blank" class="text-blue-600 hover:underline">Telegmail</a> — Real-time Telegram → Gmail forwarder</li>
+        <li><a href="https://github.com/sathishkumartheta/genai-calendar-assistant" target="_blank" class="text-blue-600 hover:underline">GenAI Calendar Assistant</a> — Gemini-powered Google Calendar agent</li>
+        <li><a href="https://github.com/sathishkumartheta/tokenwise-dehado-ai" target="_blank" class="text-blue-600 hover:underline">DeHaDo-AI Submission</a> — Handwritten document recognition using YOLO + TrOCR</li>
+      </ul>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4 border-b-4 border-blue-500 inline-block pb-1">Competitions</h2>
+      <ul class="list-disc ml-6 space-y-2">
+        <li>Top 15/9000 — Agentic AI Day Hackathon (Google Cloud)</li>
+        <li>Swag Winner — Agents-MCP Hackathon (HuggingFace)</li>
+        <li>2nd Place — DeHaDo-AI (IIT Jammu)</li>
+        <li>13th Place — MoSPI Data Viz Hackathon (Govt. of India)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section class="container mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-4 border-b-4 border-blue-500 inline-block pb-1">Education & Certifications</h2>
+    <ul class="list-disc ml-6 space-y-2">
+      <li><strong>M.Sc. (Engg)</strong> — Computer Science (Algorithm Design), HBNI, 2018</li>
+      <li><strong>B.E.</strong> — Electronics and Communication, SSN College of Engineering, 2011</li>
+      <li><strong>AWS Certified Machine Learning Engineer – Associate</strong> (Valid till Sep 2028)</li>
     </ul>
+  </section>
 
-    <h2>Education</h2>
-    <ul>
-      <li>M.S. (Engg), Homi Bhabha National Institute (2015–2018)</li>
-      <li>B.E. in Electronics & Communication, SSN College of Engineering (2007–2011)</li>
-    </ul>
-
-    <h2>Skills & Tools</h2>
-    <ul>
-      <li><strong>AI/LLMs:</strong> LangChain, LangGraph, Ollama, Hugging Face, MCP, Langfuse</li>
-      <li><strong>ML Frameworks:</strong> PyTorch, scikit-learn, Prophet, OpenCV</li>
-      <li><strong>Data & Infra:</strong> Airflow, Kafka, PySpark, MSSQL, SQLite, ChromaDB</li>
-      <li><strong>Backend:</strong> Python, C#, FastAPI, Flask</li>
-      <li><strong>Frontend:</strong> Streamlit, Gradio, pyQt</li>
-      <li><strong>Deployment:</strong> Docker, GCP, Hugging Face Spaces</li>
-    </ul>
-
-    <h2>Projects</h2>
-    <ul>
-      <li>Q&A Agent, RAG Agent, Analytics Agent using LLMs (LangChain, Ollama, FastAPI)</li>
-      <li>Real-time anomaly detection using Prophet + scikit-learn</li>
-      <li>ETL Pipelines using Apache Airflow + REST API integration</li>
-      <li>Camouflage Object Detector using PyTorch + W&B</li>
-      <li>Biometric recognition systems (iris/fingerprint)</li>
-    </ul>
-
-    <h2>Hackathons & Competitions</h2>
-    <ul>
-      <li>Top 15 @ Google Agentic AI Day Hackathon 2025</li>
-      <li>Winner @ HuggingFace Agents-MCP Hackathon</li>
-      <li>2nd Place @ DeHaDo-AI (IIT Jammu)</li>
-      <li>13th Prize @ MoSPI DataViz Hackathon</li>
-    </ul>
-
-    <h2>Open-Source Projects</h2>
-    <ul>
-      <li><a href="https://github.com/sathishkumartheta/telegmail-release">Telegmail</a> – Telegram to Gmail alert system</li>
-      <li><a href="https://github.com/sathishkumartheta/krave-backend">Krave Nutrition Backend</a> – Gemini-powered food insights</li>
-      <li><a href="https://github.com/sathishkumartheta/genai-calendar-assistant">GenAI Calendar Agent</a> – LLM-based calendar assistant</li>
-    </ul>
-
-    <h2>Certifications</h2>
-    <ul>
-      <li>Hugging Face: Agents and Model Context Protocol (MCP)</li>
-      <li>Coursera: PySpark, ETL, Cloud Computing, Machine Learning</li>
-    </ul>
-  </div>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6 mt-8">
+    <p>© 2025 Sathishkumar Thirumalai. Built with ❤️ and Tailwind CSS.</p>
+  </footer>
 </body>
 </html>
